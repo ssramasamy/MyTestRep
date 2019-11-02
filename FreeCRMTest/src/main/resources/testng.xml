@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NOP Commerce Test Suite" verbose="1" >
+  <test name="NOP Commerce Regression Test" >
+    <classes>
+      <class name="com.crm.qa.tests.LoginPageTest"/>
+      <class name="com.crm.qa.tests.DashboardPageTest"/>
+      <class name="com.crm.qa.tests.CustomersPageTest"/>
+      <class name="com.crm.qa.tests.AddANewCustomerPageTest"/>
+    </classes>
+ </test>
+</suite>
